@@ -123,3 +123,37 @@ a:hover {
     color: var(--background-color);
 }
 
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* -------------
+tablet support
+------------- */
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: var(--container-width-medium);
+    }
+}
+
+section {
+    margin-top: 6rem;
+}
+
+
+/* ------------
+phone support
+-------------*/
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-small);
+    }
+}
+
+section > h2 {
+    margin-top: 2rem;
+}
