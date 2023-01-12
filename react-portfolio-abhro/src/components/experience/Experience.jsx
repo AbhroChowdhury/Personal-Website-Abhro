@@ -14,8 +14,7 @@ const Experience = () => {
             <article className='CANEIL__details'>
               <BiCodeAlt className='experience__icon'/>
               <h4>Software Engineer, Intern</h4>
-              <small className='text-light'> 
-              
+              <small className='text-light'> At Canadian Engineering and Inspection Ltd (CANEIL), I developed software to automate several internal tasks, such as optimizing the time tracking system for employees and contractors and auto-generating corresponding documents. Additionally, I created data analysis software using Pandas, OpenPyxl, and Matplotlib for a major client, allowing efficient analysis of over 4,000 spreadsheets. I also coded Python scripts to analyze and manage pipeline and rotating equipment data, reducing the time required for process engineer's analysis. I also wrote software to automate the reporting process for large-scale projects, bringing the average report writing time down by 50%. Lastly, I implemented significant front-end changes to the company website with the goal of revamping the design to modern industry standards. I started at CANEIL in May of 2022, and completed this 4-month internship by August 2022.
               </small>
             </article>
           </div>

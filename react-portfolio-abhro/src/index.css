@@ -17,7 +17,7 @@ General Styling
 
 :root {
     --background-color: #280C08;
-    --background-color-variant: #4B2672;
+    --background-color-variant: #3C2554;
     --primary-color: #FC5555;
     --primary-color-variant: #FFBD97;
     --color-white: #fff;
@@ -80,7 +80,6 @@ h6:hover {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 

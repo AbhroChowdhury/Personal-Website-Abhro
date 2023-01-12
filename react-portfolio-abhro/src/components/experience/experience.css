@@ -4,6 +4,9 @@
     gap: 2rem;
 }
 
+section {
+    height: 100vh;
+}
 
 .experience__container > div {
     background: var(--background-color-variant);
@@ -47,5 +50,41 @@
     color: var(--primary-color-variant);
     margin-bottom: 1rem;
 }
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        height: 130vh;
+    }
+
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+/* phone */
+@media screen and (max-width: 600px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        height: 150vh;
+    }
+
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+
 
 
