@@ -9,7 +9,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 const Navbar = () => {
   return (
     <nav>
-      <a href="#"><AiOutlineHome/> </a>
+      <a href="#header"><AiOutlineHome/> </a>
       <a href="#about"><AiOutlineUser/> </a>
       <a href="#experience"><MdOutlineWorkOutline/> </a>
       <a href="#services"><AiOutlineCreditCard/> </a>

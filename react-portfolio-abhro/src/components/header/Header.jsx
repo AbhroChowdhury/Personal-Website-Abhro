@@ -6,7 +6,7 @@ import HeaderExtras from './HeaderExtras'
 
 const header = () => {
   return (
-    <header>  
+    <header id='header'>  
       <div className="container header__container">
         <h1>Abhro Chowdhury</h1>
         <h5 className="text-light">Software Engineering Student at University of Alberta</h5>
