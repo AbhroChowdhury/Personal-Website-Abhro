@@ -13,7 +13,16 @@ const About = () => {
           <div className='about__me_image'>
             <img src={ME} alt="About me image" />
           </div> 
+        </div>
 
+        <div className='about__content'>
+          <div className='about__cards'>
+            <article className='about__card'>
+              <
+              <h5>Experience</h5>
+              <small>~9 months professional experience</small>
+            </article>
+          </div>
         </div>
       </div>
     </section> 
