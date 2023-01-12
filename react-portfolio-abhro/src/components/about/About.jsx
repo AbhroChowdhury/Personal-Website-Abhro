@@ -22,7 +22,7 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <FaLaptopCode className="about__icon"/>
-              <h5>Experience</h5>
+              <h5>Experience:</h5>
               <small>~9 months professional experience</small>
             </article>
 
