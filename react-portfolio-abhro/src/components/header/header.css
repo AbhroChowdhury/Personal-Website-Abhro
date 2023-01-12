@@ -29,3 +29,21 @@
     left: 0;
     bottom: 3rem;
 }
+
+
+/* tablets */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* phone */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .header__extras {
+        display: none;
+    }
+}
