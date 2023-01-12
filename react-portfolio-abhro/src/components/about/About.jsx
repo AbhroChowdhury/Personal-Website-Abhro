@@ -22,19 +22,19 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <FaLaptopCode className="about__icon"/>
-              <h5>Experience:</h5>
+              <h6>Experience:</h6>
               <small>~9 months professional experience</small>
             </article>
 
             <article className='about__card'>
               <TbSchool className="about__icon"/>
-              <h5>Software Engineering</h5>
+              <h6>Software Engineering:</h6>
               <small>University of Alberta</small>
             </article>
 
             <article className='about__card'>
               <AiOutlineFund className="about__icon"/>
-              <h5>CO-OP Availability</h5>
+              <h6>CO-OP Availability:</h6>
               <small>4 months / Starting May</small>
             </article>
 

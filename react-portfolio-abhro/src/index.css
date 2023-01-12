@@ -62,10 +62,19 @@ h1 {
 }
 
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+h6 {
+    font-weight: 2000;
+    font-size: 1.3rem;
+    color: #FFBD97;
+}
+
+h6:hover {
+    color: var(--color-white)
+}
 
 section {
     margin-top: 8rem;
