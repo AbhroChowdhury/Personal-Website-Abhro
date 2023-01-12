@@ -17,9 +17,9 @@ General Styling
 
 :root {
     --background-color: #280C08;
-    --background-color-variant: #2c2c6c;
+    --background-color-variant: #9670C0;
     --primary-color: #FC5555;
-    --primary-color-variant: rgba(77,181,255,0.4);
+    --primary-color-variant: #FFBD97;
     --color-white: #fff;
     --color-light: #ffffff99;
     --transition: all 400ms ease; 
