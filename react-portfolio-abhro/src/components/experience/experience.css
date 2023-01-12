@@ -1,0 +1,51 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+
+.experience__container > div {
+    background: var(--background-color-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    word-wrap: break-word;
+}
+
+
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--primary-color);
+    cursor: default;
+}
+
+#experience h2 {
+    font-size: 4rem;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+}
+
+.experience__icon {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience__container h4 {
+    font-size: 1rem;
+    color: var(--primary-color-variant);
+    margin-bottom: 1rem;
+}
+
+
