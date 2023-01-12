@@ -5,3 +5,32 @@ section {
 #portfolio h2 {
     font-size: 4rem;
 }
+
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem
+}
+
+.portfolio__items {
+    background: var(--background-color-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio__items:hover {
+    border-color: var(--primary-color);
+    background: transparent;
+}
+
+.portfolio__image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.portfolio__items h3 {
+    margin: 1.2rem 0 2rem;
+}

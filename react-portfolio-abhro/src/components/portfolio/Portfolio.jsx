@@ -20,7 +20,57 @@ const Portfolio = () => {
           <h3>
             portfolio item title
           </h3>
-          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'></a>
+          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+        </article>
+
+        <article className='portfolio__items'>
+          <div className='portfolio__image'>
+            <img src={IMG1} alt=""/>
+          </div>
+          <h3>
+            portfolio item title
+          </h3>
+          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+        </article>
+
+        <article className='portfolio__items'>
+          <div className='portfolio__image'>
+            <img src={IMG1} alt=""/>
+          </div>
+          <h3>
+            portfolio item title
+          </h3>
+          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+        </article>
+
+        <article className='portfolio__items'>
+          <div className='portfolio__image'>
+            <img src={IMG1} alt=""/>
+          </div>
+          <h3>
+            portfolio item title
+          </h3>
+          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+        </article>
+
+        <article className='portfolio__items'>
+          <div className='portfolio__image'>
+            <img src={IMG1} alt=""/>
+          </div>
+          <h3>
+            portfolio item title
+          </h3>
+          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+        </article>
+
+        <article className='portfolio__items'>
+          <div className='portfolio__image'>
+            <img src={IMG1} alt=""/>
+          </div>
+          <h3>
+            portfolio item title
+          </h3>
+          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
         </article>
       </div>
 
