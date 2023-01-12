@@ -28,7 +28,9 @@ nav a:hover {
     background: rgba(0,0,0,0.3);
 }
 
+/* does not work -- fix it then add it in
 nav a.active {
     background: var(--background-color);
     color: var(--color-white);
 }
+*/
