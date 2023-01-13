@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-            FILL THIS IN LATER
+          My name is Abhro Chowdhury and I am a second-year Software Engineering student at the University of Alberta. I created this website as a way to apply my skills in React.js and front-end development. The current version of the website was made in just two days, and I plan to continue refining and adding new features as I have time. In addition to programming, I am passionate about working out, soccer, and cars. I currently follow a push-pull-arnold workout split and have been enjoying the results. FC Barcelona is my favorite soccer team and I have a particular love for cars with V8 engines, with the W204 AMG C63 being my favorite. This is just a brief description of who I am, be sure to check out my LinkedIn for more!
           </p>
 
           <a href="#contact" className='btn'>Reach out to me</a>

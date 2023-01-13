@@ -1,5 +1,5 @@
 section {
-    height: 130vh;
+    height: 0vh;
 }
 
 #portfolio h2 {
@@ -59,6 +59,6 @@ section {
     }
 
     section {
-        height: 300vh;
+        height: 800vh;
     }
 }

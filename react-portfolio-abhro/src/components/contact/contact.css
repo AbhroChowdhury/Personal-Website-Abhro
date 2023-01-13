@@ -9,6 +9,10 @@
     gap: 12%;
 }
 
+section {
+    height: 140vh;
+}
+
 .contact__options {
     display: flex;
     flex-direction: column;
@@ -68,17 +72,6 @@ form button {
     transition: var(--transition);
 }
 
-button .btn{
-    width: max-content;
-    display: inline-block;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-    border-radius: 10rem;
-    cursor: pointer;
-    padding: 0.75rem 1.2rem;
-    transition: var(--transition);
-}
-
 /* tablet */
 @media screen and (max-width: 1024px) {
     .container.container.contact__container {
@@ -96,6 +89,6 @@ button .btn{
     }
     
     section {
-        height: 200vh;
+        height: 100vh;
     }
 }
