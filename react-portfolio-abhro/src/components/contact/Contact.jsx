@@ -12,12 +12,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_e10wncj', 'template_89t1uww', form.current, 'nAslTcVzQQKedcjJ0')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+
+      e.target.reset()
   };
 
   return (
@@ -52,7 +54,7 @@ const Contact = () => {
             <input type="text" name='name' placeholder='Enter your name' required />
             <input type="text" name='Email' placeholder='Enter your email address' />
             <textarea name="message" rows="7" placeholder='Enter a message' required></textarea>
-            <a type='Submit' className='btn'>send message</a>
+            <a type='Submit' className='btn'>send message</a>   
           </form>
         </div>
 
@@ -63,3 +65,18 @@ const Contact = () => {
 }
 
 export default Contact
+
+/* ------------------------
+ERRORS TO FIX: 
+
+<a type='Submit' className='btn'>send message</a>   
+
+needs to be:
+
+<button type='Submit' className='btn'>send message</button>   
+
+then the functionality will actually work
+
+but for some reason the class on button wont change to btn and so it looks like shit
+
+--------------------------*/

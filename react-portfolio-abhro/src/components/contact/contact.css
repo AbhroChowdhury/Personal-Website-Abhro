@@ -56,6 +56,17 @@ input, textarea {
     color: var(--color-white);
 }
 
+#contact button {
+    width: max-content;
+    display: inline-block;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 10rem;
+    cursor: pointer;
+    padding: 0.75rem 1.2rem;
+    transition: var(--transition);
+}
+
 /* tablet */
 @media screen and (max-width: 1024px) {
     .container.container.contact__container {
