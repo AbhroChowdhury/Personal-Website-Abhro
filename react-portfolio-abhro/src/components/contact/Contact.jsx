@@ -3,8 +3,23 @@ import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import {FiGithub} from 'react-icons/fi'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section id='contact'>
         <h2>GET IN TOUCH</h2>
@@ -33,9 +48,9 @@ const Contact = () => {
             </article>
 
           </div>
-          <form action="">
+          <form ref={form} onSubmit={sendEmail}>
             <input type="text" name='name' placeholder='Enter your name' required />
-            <input type="text" name='Email' placeholder='Your Email required' />
+            <input type="text" name='Email' placeholder='Enter your email address' />
             <textarea name="message" rows="7" placeholder='Enter a message' required></textarea>
             <a type='Submit' className='btn'>send message</a>
           </form>
