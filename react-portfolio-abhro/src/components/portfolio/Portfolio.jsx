@@ -5,7 +5,7 @@ import IMG2 from '../../graphics/receiptPHOTO.png'
 import IMG3 from '../../graphics/dumbells.webp'
 import IMG4 from '../../graphics/mywebsite.png'
 import IMG5 from '../../graphics/opencv1.jpeg'
-import IMG6 from '../../graphics/speech.png'
+import IMG6 from '../../graphics/speech2.png'
 
 const Portfolio = () => {
   return (
@@ -18,64 +18,73 @@ const Portfolio = () => {
             <img src={IMG1} alt=""/>
           </div>
           <h3>
-            portfolio item title
+            Company Stocker
           </h3>
+          <div className="portfolio__items-cta">
           <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+          </div>
         </article>
 
         <article className='portfolio__items'>
           <div className='portfolio__image'>
-            <img src={IMG1} alt=""/>
+            <img src={IMG2} alt=""/>
           </div>
           <h3>
-            portfolio item title
+            Receipt Scanner with OCR
           </h3>
-          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+          <div className="portfolio__items-cta">
+          <a href="https://github.com/AbhroChowdhury/ReceiptScannerFullProject" className='btn'>GITHUB REPO</a>
+          </div>
         </article>
 
         <article className='portfolio__items'>
           <div className='portfolio__image'>
-            <img src={IMG1} alt=""/>
+            <img src={IMG3} alt=""/>
           </div>
           <h3>
-            portfolio item title
+            Machine Learning Fitness Tracker
           </h3>
-          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+          <div className="portfolio__items-cta">
+          <a href="https://github.com/AbhroChowdhury/Machine-Learning-Fitness-Tracker" className='btn'>GITHUB REPO</a>
+          </div>
         </article>
 
         <article className='portfolio__items'>
           <div className='portfolio__image'>
-            <img src={IMG1} alt=""/>
+            <img src={IMG4} alt=""/>
           </div>
           <h3>
-            portfolio item title
+            Personal Website
           </h3>
-          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+          <div className="portfolio__items-cta">
+          <a href="https://github.com/AbhroChowdhury/Personal-Website-Abhro" className='btn'>GITHUB REPO</a>
+          </div>
         </article>
 
         <article className='portfolio__items'>
           <div className='portfolio__image'>
-            <img src={IMG1} alt=""/>
+            <img src={IMG5} alt=""/>
           </div>
           <h3>
-            portfolio item title
+            OpenCV Projects
           </h3>
-          <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+          <div className="portfolio__items-cta">
+          <a href="https://github.com/AbhroChowdhury/Messing-around-with-opencv" className='btn'>GITHUB REPO</a>
+          </div>
         </article>
 
         <article className='portfolio__items'>
           <div className='portfolio__image'>
-            <img src={IMG1} alt=""/>
+            <img src={IMG6} alt=""/>
           </div>
           <h3>
-            portfolio item title
+            Speech to Text AI
           </h3>
+          <div className="portfolio__items-cta">
           <a href="https://github.com/AbhroChowdhury/Company-Stocker" className='btn'>GITHUB REPO</a>
+          </div>
         </article>
       </div>
-
-
-
 
     </section>
   )

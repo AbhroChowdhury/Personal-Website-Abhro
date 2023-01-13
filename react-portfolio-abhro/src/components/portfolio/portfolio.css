@@ -1,5 +1,5 @@
 section {
-    height: 150vh;
+    height: 130vh;
 }
 
 #portfolio h2 {
@@ -33,4 +33,32 @@ section {
 
 .portfolio__items h3 {
     margin: 1.2rem 0 2rem;
+}
+
+.portfolio__items-cta {
+    margin-bottom: 1rem;
+}
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    section {
+        height: 180vh;
+    }
+}
+
+/* phone */
+@media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    section {
+        height: 220vh;
+    }
 }
